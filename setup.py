@@ -1,9 +1,7 @@
 from setuptools import setup, find_packages
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
-
-setup(name='osf_visualizer',
+required = []
+setup(name='rclone_data_loader',
       use_scm_version=True,
       setup_requires=['setuptools_scm'],
       install_requires=required,
